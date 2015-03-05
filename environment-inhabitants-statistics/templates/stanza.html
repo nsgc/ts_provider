@@ -1,0 +1,16 @@
+{{#if inhabitants_statistics}}
+  <table class='table'>
+    <tbody>
+      {{#each inhabitants_statistics}}
+        <tr>
+          <th class='span4'>{{type.value}}</th>
+          <td class='span2 numeric'>{{cnt.value}}</td>
+        </tr>
+      {{/each}}
+    </tbody>
+  </table>
+{{else}}
+  <div>
+    No data
+  </div>
+{{/if}}
