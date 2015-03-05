@@ -1,0 +1,26 @@
+{
+  "@context": {
+    "stanza": "http://togostanza.org/resource/stanza#"
+  },
+  "@id": "gene-features",
+  "stanza:label": "Hello Example",
+  "stanza:definition": "Greeting.",
+  "stanza:parameters": [
+    {
+      "stanza:key": "gene_id",
+      "stanza:example": "sll1098",
+      "stanza:description": "Gene identifier.",
+      "stanza:required": true
+    }
+  ],
+  "stanza:usage": "<togostanza-gene-features gene_id=\"sll1098\"></togostanza-gene-features>",
+  "stanza:type": "stanza:Stanza",
+  "stanza:context": "",
+  "stanza:display": "",
+  "stanza:provider": "provider of this stanza",
+  "stanza:license": "",
+  "stanza:author": "author name",
+  "stanza:address": "name@example.org",
+  "stanza:created": "2015-03-05",
+  "stanza:updated": "2015-03-05"
+}
