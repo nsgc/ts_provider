@@ -1,0 +1,26 @@
+{{#if environment_attr}}
+<table class='table'>
+  <tbody>
+    <tr>
+      <th class='span3'>Environment</th>
+        <td>{{environment_attr.meo_label.value}}</td>
+      </tr>
+      <tr>
+        <th class='span3'>Description</th>
+        <td>{{environment_attr.meo_description.value}}</td>
+      </tr>
+      <tr>
+        <th class='span3'>MEO</th>
+        <td>{{environment_attr.meo_no.value}}</td>
+      </tr>
+      <tr>
+        <th class='span3'>Exact synonyms</th>
+        <td>{{environment_attr.exact_synonyms.value}}</td>
+      </tr>
+    </tbody>
+  </table>
+{{else}}
+  <div>
+    No data
+  </div>
+{{/if}}
