@@ -5,7 +5,7 @@
   "@id": "environment-attributes",
   "stanza:label": "Hello Example",
   "stanza:definition": "Greeting.",
-  "stanza:parameters": [
+  "stanza:parameter": [
     {
       "stanza:key": "meo_id",
       "stanza:example": "MEO_0000006",
@@ -22,5 +22,5 @@
   "stanza:author": "author name",
   "stanza:address": "name@example.org",
   "stanza:created": "2015-03-05",
-  "stanza:updated": "2015-03-05"
+  "stanza:updated": "2015-10-20"
 }
