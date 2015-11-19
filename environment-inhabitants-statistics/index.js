@@ -13,5 +13,9 @@ Stanza(function(stanza, params) {
         inhabitants_statistics: rows
       },
     });
+
+    $(stanza.selectAll('.update_env_attr')).on('click', function(e) {
+      $("togostanza-environment-attributes").attr('meo_id', $(e.target).data('meo-id'));
+    });
   });
 });
